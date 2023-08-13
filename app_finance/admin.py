@@ -29,7 +29,7 @@ class RevenueAdmin(admin.ModelAdmin):
 
 @admin.register(Expense)
 class ExpenseAdmin(admin.ModelAdmin):
-    list_display = 'due_date', 'pay_day', 'description', 'expense', 'status', 'calcular_total_despesas',
+    list_display = 'due_date', 'pay_day', 'description', 'expense', 'status', 'category', 'calcular_total_despesas',
     list_display_links = list_display
     search_fields = list_display_links
     list_filter = 'due_date',
