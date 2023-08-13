@@ -1,0 +1,1 @@
+web: gunicorn my_finance_v2.wsgi
